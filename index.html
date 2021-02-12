@@ -7,7 +7,15 @@
     <title>Document</title>
     <script src="/js/main.js"></script>
 </head>
-<body>
-    Meu site
+<body onload="carregou()">
+    <button type="button" onclick="clicou()">Clique aqui</button>
+    <h3 id="thanks"></h3>
+    <h2 onclick="pagina()">Clique aqui</h2>
+    <p id="mouse" onmouseover="over(this)" onmouseout="voltar(this)">passe o mouse</p>
+    <select name="" id="" onchange="change(this)">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+    </select>
 </body>
 </html>
